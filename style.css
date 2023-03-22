@@ -8,10 +8,9 @@ h2 {
 
 .header {
     display: block;
-    padding: 1vw;
     border: 20px;
     background-color: gold;
-    height: 12vw;
+    height: 10vw;
 }
 
 .navbar li {
@@ -29,7 +28,7 @@ h2 {
 }
 
 .header img {
-    max-width: 14vw;
+    max-height: 10vw;
     float: left;
     padding-left: 2vw;
 }
@@ -58,19 +57,41 @@ h2 {
     transition: 1s;
 }
 
-.recent-left{
+.recent h2 {
+    overflow: visible;
+    max-width: 25vw;
+    height: 50px;
+}
+
+.recent p {
+    text-align: center;
+    padding: 0px;
+}
+
+.recent_listed {
     display: inline-block;
     padding: 20px;
 }
 
-.recent-center{
+.article_list {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.article_listed {
     display: inline-block;
+}
+
+.article_list img {
+    max-width: 45vw;
     padding: 20px;
 }
 
-.recent-right{
-    display: inline-block;
-    padding: 20px;
+.article_list h2,p {
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 0px;
 }
 
 .article {
